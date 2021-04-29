@@ -1,0 +1,116 @@
+body {
+font-family: 'Arima Madurai', cursive;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-color: #F8EDE3;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 3.1vw;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.2),
+    -30px 0 40px rgba(0, 0, 0, 0.2)
+    /* horiz offset, vert offset, blur, color */
+}
+
+
+.pic {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.5),
+    -30px 0 40px rgba(0, 0, 0, 0.5)
+}
+
+.container {
+  display: flex;
+  flex: 0 1 90vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+.ball {
+  margin: auto;
+  width: 40%;
+  float: left;
+}
+
+.left {
+  margin: auto;
+  width: 40%;
+  float: left;
+}
+
+.right {
+  margin: auto;
+  width: 40%;
+  float: right;
+}
+
+.btn-container {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+/*
+.cta {
+  width: 20%;
+  height: 50%;
+}
+/*
+.cta {
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  position: relative;
+  width: 20%;
+  margin: auto;
+}
+/*
+.btn {
+  margin: auto;
+
+}
+
+.button:hover {
+  animation-name: color;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  border-radius: 50%;
+}
+
+/* Screen Sizes 500px and Under */
+@media screen and (max-width: 500px) {
+  div.container {
+    font-size: 16px;
+  }
+}
+
+/* Screen Sizes 501px and Up */
+@media (min-width: 501px) {
+  div.container {
+    font-size: 30px;
+  }
+}
